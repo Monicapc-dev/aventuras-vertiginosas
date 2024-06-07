@@ -7,16 +7,17 @@ import Card from '../components/Card.astro';
 <Layout title="Aventuras Vertiginosas">
   <Header slot="header" />
   <main id="home" class="flex flex-col items-center mt-10">
-    <section class="w-full lg:w-[740px] mx-auto bg-white bg-opacity-80 p-8 rounded-lg shadow-lg">
-		<h1 class="text-5xl text-center text-orange-400 mb-10">Aventuras Vertiginosas</h1>
-      	<h2 id="informacion" class="text-3xl font-bold mb-4">Información sobre el juego</h2>
-      	<p class="mb-4 text-xl">Es un juego en  <strong class="text-orange-400">2D tipo Endless Runner</strong> desarrollado en el marco del programa de Desarrollo de Aplicaciones Multiplataforma (DAM).</p>
-		<p class="mb-4 text-xl">Este juego, creado con <strong class="text-orange-400">gráficos tipo pixel art</strong>, invita a los jugadores a controlar una ardilla ágil que se desplaza a través de un bosque, esquivando obstáculos y avanzando sin cesar.</p> 
-		<p class="mb-4 text-xl">El objetivo es <strong class="text-orange-400">lograr la mayor distancia posible</strong> mientras el terreno se vuelve cada vez más desafiante.</p>
-		<p class="text-xl mb-10">En un mundo donde la velocidad y la destreza son fundamentales, surge  <strong class="text-orange-400">"Aventuras Vertiginosas"</strong> , un emocionante juego en 2D que invita a los jugadores a sumergirse en una experiencia trepidante llena de desafíos y diversión. En este juego, los jugadores asumen el papel de una ardilla intrépida que se aventura a través de un bosque, saltando entre los árboles y esquivando obstáculos mientras avanza sin cesar. Con un estilo visual cautivador de pixel art y una jugabilidad adictiva, promete transportar a los jugadores a un mundo lleno de emoción y adrenalina.
+	<img class="flex justify-center h-30 mb-20 " src="/Logo.png" alt="Logo">
+    <section class="w-full lg:w-[750px] mx-auto bg-white bg-opacity-80 p-8 rounded-lg shadow-lg">
+		<h1 id="informacion" class="text-3xl md:text-5xl text-center text-orange-400 mb-10">Aventuras Vertiginosas</h1>
+      	<h2 class="text-xl md:text-3xl font-bold mb-4">Información sobre el juego</h2>
+      	<p class="mb-4 md:text-xl">Es un juego en  <strong class="text-orange-400">2D tipo Endless Runner</strong> desarrollado en el marco del programa de Desarrollo de Aplicaciones Multiplataforma (DAM).</p>
+		<p class="mb-4 md:text-xl">Este juego, creado con <strong class="text-orange-400">gráficos tipo pixel art</strong>, invita a los jugadores a controlar una ardilla ágil que se desplaza a través de un bosque, esquivando obstáculos y avanzando sin cesar.</p> 
+		<p class="mb-4 md:text-xl">El objetivo es <strong class="text-orange-400">lograr la mayor distancia posible</strong> mientras el terreno se vuelve cada vez más desafiante.</p>
+		<p class="md:text-xl mb-10">En un mundo donde la velocidad y la destreza son fundamentales, surge  <strong class="text-orange-400">"Aventuras Vertiginosas"</strong> , un emocionante juego en 2D que invita a los jugadores a sumergirse en una experiencia trepidante llena de desafíos y diversión. En este juego, los jugadores asumen el papel de una ardilla intrépida que se aventura a través de un bosque, saltando entre los árboles y esquivando obstáculos mientras avanza sin cesar. Con un estilo visual cautivador de pixel art y una jugabilidad adictiva, promete transportar a los jugadores a un mundo lleno de emoción y adrenalina.
 			Este proyecto representa un desafío emocionante para poner en práctica nuestras habilidades técnicas y creativas mientras colaboramos en el diseño, desarrollo y pruebas de un producto interactivo.</p>
 		<div id="galeria" class="mb-4">
-			<h3 class="text-3xl font-semibold mb-2">Galería de Imágenes</h3>
+			<h3 class="text-xl md:text-3xl font-semibold mb-2">Galería de Imágenes</h3>
 			<div id="default-carousel" class="relative w-full" data-carousel="slide">
 				<!-- Carousel wrapper -->
 				<div class="relative h-56 overflow-hidden rounded-lg md:h-96 mb-10">
@@ -69,7 +70,7 @@ import Card from '../components/Card.astro';
 			</div>
 		</div>
 		<div id="descarga" class="text-center">
-			<a href="https://drive.google.com/file/d/1tAlUrwo5Y8kyxoAnLuGvUZmUviL4f6Pl/view?usp=drive_link" class="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600">Descargar Juego</a>
+			<a href="https://drive.google.com/file/d/1tAlUrwo5Y8kyxoAnLuGvUZmUviL4f6Pl/view?usp=drive_link" target="_blank" class="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600">Descargar Juego</a>
 		</div>
     </section>
   </main>
